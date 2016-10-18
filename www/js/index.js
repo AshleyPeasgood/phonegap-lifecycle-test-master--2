@@ -62,3 +62,4 @@ var valueone= window.localStorage.getItem(itemone);
 Console.log(
     Freddo.Calories + "also has high fats of" + Freddo.fat);
 ]}
+}
