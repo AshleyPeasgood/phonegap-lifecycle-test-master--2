@@ -43,7 +43,8 @@ var launched_count = 0;
 		alert("resume");
 		resumed_count++;
 		updateDisplay();
-    } 
+    }
+{
 var itemone = "pen";
 var valueone = "blue";
 
