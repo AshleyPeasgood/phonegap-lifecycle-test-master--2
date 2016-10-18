@@ -53,3 +53,12 @@ var valueone= window.localStorage.getItem(itemone);
 
     window.alert(itemone + valueone);
 }
+{"Freddo":[
+    {"Calories":"95kcal"},
+    {"Sugars":"10g"},
+    {"Fat":"5.5g"},
+    {"Saturates":"3.3g"},
+    {"Salt":"0.04g"}
+Console.log(
+    Freddo.Calories + "also has high fats of" + Freddo.fat);
+]}
