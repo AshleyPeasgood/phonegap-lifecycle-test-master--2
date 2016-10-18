@@ -12,7 +12,7 @@ var launched_count = 0;
         window.localStorage.setItem("pen", "black");
         window.localStorage.setItem("usb", "green");
         window.localStorage.setItem("phone_number", "999");
-        window.localStorage.getItem("key");
+        window.localStorage.getItem("pen");
     }
 	
 	function updateDisplay() {
