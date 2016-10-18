@@ -9,10 +9,7 @@ var launched_count = 0;
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
-        window.localStorage.setItem("pen", "black");
-        window.localStorage.setItem("usb", "green");
-        window.localStorage.setItem("phone_number", "999");
-        window.localStorage.getItem("pen");
+        
     }
 	
 	function updateDisplay() {
@@ -47,4 +44,11 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     } 
+var itemone = "pen";
+var valueone = "blue";
 
+    window.localStorage.setItem (itemone, valueone);
+var valueone= window.localStorage.getItem(itemone);
+
+    window.alert(itemone + valueone);
+}
